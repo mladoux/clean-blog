@@ -1,0 +1,37 @@
+/*
+Theme Name: Clean Blog
+Theme URI: https://startbootstrap.com/template-overviews/clean-blog
+Author: David Miller
+Author URI: http://davidmiller.io/
+Description: Clean Blog is a Medium inspired blog theme for Bootstrap.
+Version: 5.0.8
+License: MIT
+License URI: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-clean-blog/master/LICENSE
+Tags: bootstrap, responsive
+*/
+
+#mainNav .navbar-nav > li.page_item > a {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width: 992px) {
+  #mainNav .navbar-nav > li.page_item > a {
+    padding: 10px 20px;
+    color: #fff;
+  }
+  #mainNav .navbar-nav > li.page_item > a:focus, #mainNav .navbar-nav > li.page_item > a:hover {
+    color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #mainNav.is-fixed .navbar-nav > li.page_item > a {
+    color: #212529;
+  }
+  #mainNav.is-fixed .navbar-nav > li.page_item > a:focus, #mainNav.is-fixed .navbar-nav > li.page_item > a:hover {
+    color: #0085A1;
+  }
+}
